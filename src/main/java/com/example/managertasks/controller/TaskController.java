@@ -16,7 +16,7 @@ import com.example.managertasks.model.Task;
 import com.example.managertasks.repository.TaskRepository;
 
 @RestController
-@RequestMapping({ "/tarefas" })
+@RequestMapping({ "/tasks" })
 public class TaskController {
 	private TaskRepository repository;
 
